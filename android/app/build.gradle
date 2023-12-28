@@ -74,9 +74,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.rnstarter"
+    namespace "Biswo.Drawer"
     defaultConfig {
-        applicationId "com.rnstarter"
+        applicationId "Biswo.Drawer"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

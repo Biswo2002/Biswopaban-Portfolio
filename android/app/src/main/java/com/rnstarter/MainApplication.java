@@ -1,4 +1,4 @@
-package com.rnstarter;
+package Biswo.Drawer;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

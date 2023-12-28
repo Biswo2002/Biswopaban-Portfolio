@@ -9,7 +9,9 @@ const Stack = createSharedElementStackNavigator<PrivateRoutesTypes>();
 
 export default function PrivateRoutes({}) {
   return (
-    <Stack.Navigator screenOptions={{headerShown: false}}>
+    <Stack.Navigator
+      screenOptions={{headerShown: false}}
+      initialRouteName="TabLayouts">
       <Stack.Screen name="TabLayouts" component={TabLayout} />
       <Stack.Screen name="Checkout" component={Private.Checkout} />
       <Stack.Screen name="Coupons" component={Private.Coupons} />
